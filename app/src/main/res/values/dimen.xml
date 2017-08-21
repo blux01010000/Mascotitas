@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="borde_card_view">4dp</dimen>
+    <dimen name="size_name">20sp</dimen>
+    <dimen name="size_text_toolbar">30sp</dimen>
+    <dimen name="size_height_img">200dp</dimen>
+    <dimen name="img_button_like">38dp</dimen>
+    <dimen name="left">10dp</dimen>
+    <dimen name="padding_container">10dp</dimen>
+    <dimen name="padding_lista">16dp</dimen>
+    <dimen name="margin_right">10dp</dimen>
+    <dimen name="ll_tvname_pet">285dp</dimen>
+    <dimen name="toolbar_title">260dp</dimen>
+    <dimen name="elevation_action_bar">4dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
