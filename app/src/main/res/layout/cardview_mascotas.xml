@@ -37,14 +37,12 @@
             <LinearLayout
                 android:layout_width="@dimen/ll_tvname_pet"
                 android:layout_height="wrap_content"
-                android:gravity=""
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/tvNamePet"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/imgTotalLikes"
                     android:layout_gravity="center"
                     android:gravity="center_vertical"
                     android:text="@string/pet_name"

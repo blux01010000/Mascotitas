@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ultimos"
+        android:icon="@drawable/five_star"
+        android:orderInCategory="100"
+        android:title="Ultimos"
+        app:showAsAction="always">
+
+
+    </item>
+
+    <item
+        android:id="@+id/contact"
+        android:title="@string/menu_contact"
+        android:orderInCategory="101"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/menu_about"
+        android:orderInCategory="102"
+        >
+
+    </item>
+
+
+
+</menu>

@@ -8,6 +8,14 @@
         <item name="colorAccent">@color/accent</item>
     </style>
 
+    <style name="RaisedButton" parent="Theme.AppCompat.Light">
+
+        <item name="colorButtonNormal">@color/primary_dark</item>
+        <item name="colorControlHighlight">@color/primary</item>
+        <item name="android:textColor">@color/icons</item>
+
+    </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

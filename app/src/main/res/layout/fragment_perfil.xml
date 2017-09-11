@@ -1,0 +1,53 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.bprats.MainActivity">
+
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/cimgvProfile"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/cat_black_profile"
+        app:civ_border_color="#FF5252"
+        app:civ_border_width="8dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#8BC34A"
+        android:layout_centerHorizontal="true"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvListPics"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/padding_lista"
+        android:layout_below="@id/cimgvProfile"
+        >
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/camera" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+</RelativeLayout>

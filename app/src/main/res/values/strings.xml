@@ -4,4 +4,16 @@
     <string name="pet_name">Nombre</string>
     <string name="text_total_likes">1</string>
     <string name="title_activity_second">SecondActivity</string>
+    <string name="menu_contact">Contacto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="enviar_coment">Enviar comentario</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="email">Email</string>
+    <string name="name">Nombre completo</string>
+    <string name="contacto">Contacto</string>
+    <string name="acercaDe">Biografia</string>
+    <string name="about">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

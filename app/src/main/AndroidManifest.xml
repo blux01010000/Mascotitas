@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bprats.mascotitas">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,16 +18,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.bprats.SecondActivity"
+            android:name="com.bprats.Contacto"
+            android:label="@string/contacto"
             android:parentActivityName="com.bprats.MainActivity">
 
-            <!-- Soporte versiones anteriores 4.0 o inferiores -->
+            <!-- Soporte para version 4.0 o inferiores -->
 
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.bprats.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bprats.Contacto" />
 
-            </meta-data>
+
+        </activity>
+
+        <activity
+            android:name="com.bprats.About"
+            android:label="@string/acercaDe"
+            android:parentActivityName="com.bprats.MainActivity">
+
+            <!-- Soporte para version 4.0 o inferiores -->
+
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bprats.About" />
 
 
         </activity>

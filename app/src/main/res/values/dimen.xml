@@ -9,8 +9,9 @@
     <dimen name="padding_container">10dp</dimen>
     <dimen name="padding_lista">16dp</dimen>
     <dimen name="margin_right">10dp</dimen>
-    <dimen name="ll_tvname_pet">285dp</dimen>
+    <dimen name="ll_tvname_pet">230dp</dimen>
     <dimen name="toolbar_title">260dp</dimen>
     <dimen name="elevation_action_bar">4dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="textForm">18sp</dimen>
 </resources>
